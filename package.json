@@ -2,13 +2,16 @@
   "name": "nodepls",
   "version": "1.0.0",
   "description": "",
-  "start": "node index.js",
+  "main": "index.js",
   "scripts": {
+    "main": "index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node": "^18.10.0"
+    "node": "^18.10.0",
+    "nodemon": "^2.0.20"
   }
 }
